@@ -61,17 +61,17 @@ sass:
   style: compressed # Style compression
 permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
 excerpt_separator: <!-- more --> # Marks end of excerpt in posts
-timezone: Europe/London # Timezone for blog posts and alike
+timezone: Europe/Prague # Timezone for blog posts and alike
 
 # 5. Collections
 collections:
   posts:
     title: Posts # Needed for Siteleaf
     output: true
-    description: "My thoughts and ideas" # The post list page content
+    description: "Articles by the TAI Prague Team." # The post list page content
     feature_text: |
-      Welcome to the blog
-    feature_image: "https://picsum.photos/2560/600?image=866"
+      <h2 style="color: #301934;">Welcome to our blog!</h2>
+    feature_image: "/assets/default-offline-image.png"
 
 # 6. Jekyll collections settings
 defaults:
@@ -96,7 +96,7 @@ defaults:
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
-title: "Alembic" # Site name or title, also used in jekyll-seo-tag
+title: "TAI Prague" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
 description: "Website of TAI Prague group" # Site description and default description, also used in jekyll-seo-tag
 url: "https://tai-prague.github.com" # Site url, also used in jekyll-seo-tag
@@ -132,7 +132,7 @@ navigation_header:
   url: /search/
 
 navigation_footer:
-- title: Created by TAI Prague. Template- https://github.com/daviddarnes/alembic
+- title: Created by TAI Prague. Template credit - https://github.com/daviddarnes/alembic
   # url: https://www.ciirc.cvut.cz/en/
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
