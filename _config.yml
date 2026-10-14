@@ -10,6 +10,7 @@
 # 9. Site navigation
 
 # 1. Files excluded from Jekyll builds
+# From: https://github.com/jekyll/jekyll/issues/5267#issuecomment-241379902
 exclude:
 - README.md
 - CODE_OF_CONDUCT.md
@@ -21,7 +22,7 @@ exclude:
 - Gemfile.lock
 - alembic-jekyll-theme.gemspec
 - .jekyll-cache
-- [vendor] # From: https://github.com/jekyll/jekyll/issues/5267#issuecomment-241379902
+- vendor 
 
 # 2. Installed Gems
 plugins:
