@@ -18,4 +18,3 @@ We are a group of researchers working at [CTU in Prague](https://www.cvut.cz/).
 - [Dr. Jan Zahálka](https://zahalka.net/)
 - [Dr. Erik Derner](https://erik-derner.github.io/research/#about)
 - [Vijay Jaisankar](https://vijay-jaisankar.github.io/) (PhD Student)
-
